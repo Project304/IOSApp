@@ -13,24 +13,12 @@ class FeedCell: UITableViewCell {
     
     
     @IBOutlet weak var postId: UILabel!
-    
     @IBOutlet weak var profilePhoto: UIImageView!
-    
-    
     @IBOutlet weak var userInfoText: UILabel!
-    
-    
     @IBOutlet weak var postImageView: UIImageView!
-    
-    
-    @IBOutlet weak var commentText: UILabel!
-    
-    
+    @IBOutlet weak var commentText: UILabel!  
     @IBOutlet weak var likeLabel: UILabel!
-    
-    
     @IBOutlet weak var likeDetail: UILabel!
-    
     @IBOutlet weak var postComment: UILabel!
     
     override func awakeFromNib() {
