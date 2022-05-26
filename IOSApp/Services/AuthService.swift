@@ -14,8 +14,7 @@ class AuthService {
     static var firestore = Firestore.firestore()
     
     static func getUserId(userId: String) -> DocumentReference {
-        //user table içerisindeki current userin olduğu yeri bulup hangi dökümandaysa
-        //onun id değerini döndürecek
+        //user table içerisindeki current userin id'sini kullanarak dökümanın referans değerini döndürdük
         return firestore.collection("Users").document(userId)
     }
     
